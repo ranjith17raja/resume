@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Hind&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
+  </head>
+  <body>
+
+    <div class="testimonial-section">
+      <div class="inner-width">
+        <h1><marquee>Ranjith cv</marquee></h1>
+        <h5>Email: ranjith18raja@gmail.com</h5>
+        <h6>Contact:9443759724</h6><hr>
+        <div class="testimonial-pics">
+          <img src="image/images4.jpg" alt="test-1" class="active">
+          <img src="image/acd.jpg" alt="test-2">
+          <img src="image/knowledege.jpg" alt="test-3">
+          <img src="image/images3.jpg" alt="test-4">
+          <img src="image/images2.jpg" alt="test-5">
+          <img src="image/images1.jpg" alt="test-6">
+
+        </div>
+
+        <div class="testimonial-contents">
+          <div class="testimonial active" id="test-1">
+            <span class="description"><b>OBJECTIVES</b></span>
+
+            <p>Looking for an organization where i can enhance my knowledge and from my academic learing, I would give my best to organization</p>
+            
+          </div>
+
+          <div class="testimonial" id="test-2">
+             <span class="description"><b>ACADEMICS</b></span>
+            
+            <p class="base1">
+              <b >College</b><br>
+        <b>College:</b> KSR College Of Engineering.<br>
+           <b>Department:</b> BE.(computer Science and Engineering.<br>
+           <b>University:</b> Anna University.<br>
+           <b>Year of Passing:</b> 2019.<br>
+           <br><br>
+          <b> XII</b><br>
+           <b>School:</b> SRK Martic Hrs Sec School,Salem.<br>
+           <b>Department:</b> Computer Science.<br>
+           <b>Board:</b> State Board.<br>
+           <b>Year of passing:</b>2015.<br>
+           <br>
+          <b>X</b><br>
+           <b>School:</b>Sri Gayathri Hrs Sec School,Salem.<br>
+           <b>Board:</b> State Board.<br>
+           <b>Year of Passing:</b> 2013.<br><br>
+</p>
+            
+          </div>
+
+          <div class="testimonial" id="test-3">
+              <span class="description"><b>KNOWLEDGE AND INTREST</b></span>
+            <p class="base"><b>Comupter Proficency:</b> <br>Java,SQL,HTML,CSS,JavaScript.<br>
+          <b>Area Of Intrest:</b><br> Web Designing and Software Development.</p>
+          
+          </div>
+
+          <div class="testimonial" id="test-4">
+            <span class="description"><b>PROJECT</b></span>
+            <p class="base1"><b>Project Title:</b><br> Effective Software Define Real Time DDos Attack Detection Model Using Hit Rate Analysis.
+      <br>
+      <b>Desicription:</b> <br>Which help to find the DDos attack in cloud and minimize the packet loss rate.<br>Assist in regulation of malicious packet sending nodes.<br> Alert Sending to affecting route.<br>Which proposed strategy can trackback fast in larger scale attack in networks. </p>
+</div>
+      <div class="testimonial" id="test-5">
+              <span class="description"><b>WORKSHOPS</b></span>
+            <p><ul>
+            <li>Attended Workshop on <b>Mobile Appliction Development and Road Show To Ethical Hacking & Cyber Security </b> Conducted by <b>KSR College of Engineering,Tiruchengode.</b></li>
+            <li>Attended Workshop on<b>Data Analysis</b> Conducted by<b>
+              Sri Krishna College Of Engineering,Coimbatore.</b>
+              <li>Attended a Workshop on <b>Internet2.0</b> conducted by <b>Goverment College  Of Engineering,Coimbatore.</b></li>
+        
+            </li>
+          </ul></p> 
+          </div>
+          <div class="testimonial " id="test-6">
+              <span class="description"><b>PERSONAL DETIALS</b></span>
+            <p class="base">
+              
+               <b>Father's Name</b>   : Rajadurai T<br>
+               <b>Mother's Name</b>   : Nirmaladevi R<br>
+               <b>Date Of Birth</b>   : 31-07-1998<br>
+               <b>Mother Tongue</b>   : Tamil<br> 
+               <b>Language known</b>  : Tamil,English<br> 
+               <b>Hobbies</b>         : Pencil Sketch<br>
+
+            </p>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $('.testimonial-pics img').click(function(){
+        $(".testimonial-pics img").removeClass("active");
+        $(this).addClass("active");
+
+        $(".testimonial").removeClass("active");
+        $("#"+$(this).attr("alt")).addClass("active");
+      });
+    </script>
+    <div class="Address">
+      <p><hr><br>
+        <b>Address</b>:<br> Sundhar Nagar,<br>
+                        Mallamoopam patti(Village),<br>
+                        Iyyamperumam patti(po),<br>
+                        Junction,<br>
+                        Salem-636302. <br>
+   </p>
+   <p class="Place">
+    <b>Place:</b>Salem.<br>
+    <b>Contact:</b>9443759724.
+   </p>
+    </div>
+
+  </body>
+</html>
